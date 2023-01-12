@@ -21,8 +21,8 @@ torch-geometric==1.3.2
 ## Train Data & Test Data
 Download the data and unzip it in the current folder.
 ```
-https://pan.baidu.com/s/1lOuzloemPxU4DGTre6qsJQ 
-Password: 9wif 
+https://pan.baidu.com/s/1tiel2IyNkf9dwRszHiOe2Q 
+Password: naf3
 ```
 
 ## Train
@@ -90,6 +90,6 @@ python test_cl.py
 The trained model is in the following link
 
 ```
-https://pan.baidu.com/s/1nGq0xHnJMpNfCz_MJNErAQ 
-Password: t5jm
+https://pan.baidu.com/s/1YK9tezjxMmoJR8BScyfVTA 
+Password: fj3h
 ```
