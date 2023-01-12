@@ -1,0 +1,34 @@
+{
+  "name": "SE-GNN",
+  "n_gpu": 1,
+  "gpu_id": 1,
+  "mode": "greedy",
+  "arch": {
+    "type": "TSPModel",
+    "args": {
+      "node_dim": 6,
+      "edge_dim": 4,
+      "embed_dim": 128,
+      "conv_dim": 128,
+      "layer": 3,
+      "graph_size": 50
+    }
+  },
+  "data_loader": {
+    "data": {
+      "graph_type": "random",
+      "knn": 10
+    },
+    "args": {
+      "batch_size": 64,
+      "shuffle": false
+    }
+  },
+  "sampling": {
+    "size": 128
+  },
+  "beamsearch": {
+    "size": 1280
+  }
+}
+
