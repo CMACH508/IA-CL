@@ -37,6 +37,7 @@ Password: naf3
 ```
 
 # Training with IA-CL
+We provide training codes for TSP20, TSP50 and TSP100. When training on instances of different scales, the following two configuration files need to be modified. The rest of the configuration is shared at different scales and does not need to be modified.
 
 ## Adjust "config_train.json"
 
@@ -53,12 +54,14 @@ num_models: Set according to computing resources
 run_id: set arbitrarily
 ```
 
+After the configuration file is modified, you can start training.
 ## Run "run_train.sh"
 
 ```
 source ./run_train.sh
 ```
 
+The trained model needs to be copied to the corresponding folder for testing.
 ## Copy models with "cp_models.sh". Note that the path in the file is set according to the actual situation.
 
 ```
@@ -66,6 +69,7 @@ source ./cp_models.sh
 ```
 
 # Test with IA-CL
+During testing, configuration files also need to be modified according to different data sizes.
 
 ## Adjust "config_test.json"
 
@@ -82,13 +86,16 @@ num_models: Set according to computing resources
 run_id: run_id set during training
 ```
 
+Start the test after modifying the configuration file. This step gets the test results of a single model.
 ## Run "run_test.sh"
 
 ```
 source ./run_test.sh
 ```
 
-## Run "test_cl.py". Pay attention to the args in the file.
+
+## Run "test_cl.py". 
+The final output combines the results of different models. Pay attention to the args in "test_cl.py".
 
 ```
 python test_cl.py
@@ -98,7 +105,7 @@ python test_cl.py
 ```
 
 # Pretrained models
-The trained model is in the following link
+The trained model is in the following link.
 
 ```
 https://pan.baidu.com/s/1YK9tezjxMmoJR8BScyfVTA 
