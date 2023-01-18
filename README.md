@@ -1,8 +1,8 @@
 # IA-CL: A Deep Bidirectional Competitive Learning Method for Traveling Salesman Problem
 
-
-<img src="tsp.JPG" width="200" height="200">
-
+<div align=center>
+<img src="tsp.JPG" width="280" height="280">
+</div>
 
 The traveling salesman problem (TSP) is a classic NP-hard combinatorial optimization problem. For a given set of city coordinates, the goal of TSP is to find the shortest route that visits each city exactly once and back to the original city. Traditional heuristic algorithms rely on hand-crafted rules to efficiently search for an approximate solution. There is a surge of interests in recent years to develop graph neural network (GNN) based learning methods for the NP-hard traveling salesman problem (TSP). However, the existing methods not only have limited search space but also require a lot of training instances with ground-truth solutions that are time-consuming to compute.
 
