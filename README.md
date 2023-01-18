@@ -30,7 +30,7 @@ torch-geometric==1.3.2
 ``` 
 
 # Download train Data & test Data
-Download the data and unzip it in the current folder.
+Data can be generated instantly using the generator under the data-generator folder, but after the training data is generated, an optimal solver, such as Gurobi, needs to be used to calculate the optimal path, which takes a long time. We put the generated training and test data in the link below. Before training, you need download the data and unzip it in the current folder.
 ```
 https://pan.baidu.com/s/1tiel2IyNkf9dwRszHiOe2Q 
 Password: naf3
